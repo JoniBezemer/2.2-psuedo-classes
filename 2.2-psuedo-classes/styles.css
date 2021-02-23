@@ -1,0 +1,35 @@
+.Hover1:hover{
+    color: lightskyblue;
+    font-weight: bold;
+}
+.Hover2:active{
+    color: red;
+    font-style: italic;
+}
+.Hover3:visited{
+    color: yellow;
+}
+textarea:focus{
+    color: green;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul >li{
+    align-self: flex-start;
+}
+nav{
+    background-color: darkblue;
+}
+.currentPage{
+    background-color: rgb(163, 180, 201);
+}
+.currentPage:hover{
+    background-color: lightblue;
+}
+input:focus{
+    border: aqua solid 5px;
+}
